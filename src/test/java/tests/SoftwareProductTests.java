@@ -24,7 +24,6 @@ public class SoftwareProductTests extends TestBase {
     @BeforeEach
     void setUp() {
         open("https://ppr.ru/");
-        Configuration.holdBrowserOpen = true;
     }
 
     static Stream<Arguments> checkLocaleTest() {
