@@ -53,15 +53,15 @@ public class SoftwareProductTests extends TestBase {
         });
     }
 
-    @DisplayName("Check opening YouTube page when click on YouTube icon")
+    @DisplayName("Check opening VK page when click on VK icon")
     @Test
     void checkYouTubeButton() {
-        step("Click on YouTube icon", () -> {
-            $$(".toright a").findBy(href("https://www.youtube.com/channel/UC_UO2uWdqJpCQNoc-1P3fxg?view_as=subscriber")).click();
+        step("Click on VK icon", () -> {
+            $$(".toright a").findBy(href("https://vk.com/programmproduct")).click();
         });
         step("Switch to new page and check URL", () -> {
             switchTo().window(1);
-            webdriver().shouldHave(url("https://www.youtube.com/channel/UC_UO2uWdqJpCQNoc-1P3fxg?view_as=subscriber"));
+            webdriver().shouldHave(url("https://vk.com/programmproduct"));
         });
     }
 
