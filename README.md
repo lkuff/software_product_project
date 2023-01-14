@@ -4,7 +4,7 @@
 <img title="Allure Overview" src="images/screenshots/Main_page.png">
 </p>
 
-## :bookmark_tabs:    Содержание
+## <a name="bookmark_tabs-Содержание"></a>:bookmark_tabs: Содержание
 
 ➠ [Покрытый функционал](#checkered_flag-покрытый-функционал)
 
@@ -130,4 +130,4 @@ gradle clean test
   <img title="Selenoid Video" src="images/gif/Test_selenoid_video.gif">
 </p>
 
-[:arrow_up:Содержание](#Содержание)
+[:arrow_up:Содержание](#bookmark_tabs-Содержание)
