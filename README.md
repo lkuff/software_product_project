@@ -100,8 +100,8 @@ test
 
 > Для запуска тестов используется параметризированная сборка
 > - <code>BROWSER</code> – браузер, в котором будут выполняться тесты (по умолчанию - <code>chrome</code>).
->- размер окна браузера, в котором будут выполняться тесты (по умолчанию - <code>1920x1080</code>).
->- версия браузера, в котором будут выполняться тесты (по умолчанию <code>100.0</code>)
+>- <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (по умолчанию - <code>1920x1080</code>).
+>- <code>BROWSER_VERSION</code> – версия браузера, в котором будут выполняться тесты (по умолчанию <code>100.0</code>)
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C16-leshkakuff-software_product_project/allure/)
 
