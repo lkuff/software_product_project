@@ -87,7 +87,7 @@ gradle clean test
 <img title="Jenkins" src="images/screenshots/Project_build_in_Jenkins.png">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/012-SergeevSS90-unit13-Wildberries_tests/24/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C16-leshkakuff-software_product_project/allure/)
 
 ### :large_orange_diamond: Главная страница Allure-отчета
 
@@ -130,4 +130,3 @@ gradle clean test
   <img title="Selenoid Video" src="images/gif/Test_selenoid_video.gif">
 </p>
 
-[Наверх](#lift)
