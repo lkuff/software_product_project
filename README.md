@@ -6,7 +6,7 @@
 
 ## :bookmark_tabs:    Содержание
 
-➠ [Покрытый функционал](#globe_with_meridians-покрытый-функционал)
+➠ [Покрытый функционал](#checkered_flag-покрытый-функционал)
 
 ➠ [Технологический стек](#desktop_computer-Технологический стек)
 
@@ -19,7 +19,7 @@
 ➠ [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 
 ➠ [Пример запуска теста в Selenoid](#-Пример-запуска-теста-в-Selenoid-из-отчета-Allure)
-## <a name="globe_with_meridians-покрытый-функционал"></a>:globe_with_meridians: Покрытый функционал
+## <a name="checkered_flag-покрытый-функционал"></a>:checkered_flag: Покрытый функционал
 
 ### UI тесты
 
@@ -31,7 +31,7 @@
 - [x] Проверка вакансий тестировщика в Москве
 - [x] Проверка наличия кнопки "Контакты" в футере страницы
 
-## :desktop_computer: Технологический стек
+## <a name="desktop_computer-Технологический стек"></a>:desktop_computer: Технологический стек
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
@@ -63,13 +63,13 @@
         State5 --> State6
         State6 --> State7
         State7 --> State8
-        note right of State1 : Работа с кодом
+        note right of State1 : Написание тестов
         note left of State2 : Фреймворки
         note right of State3 : Сборка проекта
-        note left of State4 : Система контроля версий и хостинг проекта
+        note left of State4 : Система контроля версий 
         note right of State5 : Параметризация и запуск сборки
         note left of State6 : Контейнеризация
-        note right of State7 : Отчётность
+        note right of State7 : Просмотр отчетности
         note left of State8 : Уведомления
 ```
 ## :key: Запуск тестов из терминала
@@ -116,7 +116,7 @@ gradle clean test
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 > По результатам каждой сборки Telegram-бот отправляет отчет в специальный телеграм-чат. 
-
+>
 > Информация по настройке и использованию бота <code>https://github.com/qa-guru/allure-notifications</code>
 
 <p align="center">
@@ -130,3 +130,4 @@ gradle clean test
   <img title="Selenoid Video" src="images/gif/Test_selenoid_video.gif">
 </p>
 
+[Наверх](#lift)
