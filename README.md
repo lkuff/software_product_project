@@ -130,3 +130,4 @@ gradle clean test
   <img title="Selenoid Video" src="images/gif/Test_selenoid_video.gif">
 </p>
 
+[:arrow_up:Содержание](#Содержание)
