@@ -12,13 +12,13 @@
 
 ➠ [Запуск тестов из терминала](#key-запуск-тестов-из-терминала)
 
-➠ [Удаленный запуск тестов в Jenkins](#удаленный-запуск-тестов)
+➠ [Удаленный запуск тестов в Jenkins](#удаленный-запуск-тестов-в-Jenkins)
 
 ➠ [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
 
 ➠ [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 
-➠ [Пример запуска теста в Selenoid](#-Пример-запуска-теста-в-Selenoid-из-отчета-Allure)
+➠ [Пример запуска теста в Selenoid из отчета Allure](#-Пример-запуска-теста-в-Selenoid-из-отчета-Allure)
 ## <a name="checkered_flag-покрытый-функционал"></a>:checkered_flag: Покрытый функционал
 
 ### UI тесты
@@ -80,12 +80,28 @@
 gradle clean test
 ```
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Удаленный запуск тестов в Jenkins
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Удаленный запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C16-leshkakuff-software_product_project/)
+
+### Главная страница сборки
+
+<p align="center">
+<img title="Jenkins" src="images/screenshots/Jenkins_main_page.png">
+</p>
+
+### Удаленный запуск тестов
+
+```
+clean
+test
+"-Dbrowser=${BROWSER}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-DbrowserVersion=${BROWSER_VERSION}"
+```
 
 > Для запуска тестов используется параметризированная сборка
-<p align="center">
-<img title="Jenkins" src="images/screenshots/Project_build_in_Jenkins.png">
-</p>
+> - <code>BROWSER</code> – браузер, в котором будут выполняться тесты (по умолчанию - <code>chrome</code>).
+>- размер окна браузера, в котором будут выполняться тесты (по умолчанию - <code>1920x1080</code>).
+>- версия браузера, в котором будут выполняться тесты (по умолчанию <code>100.0</code>)
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C16-leshkakuff-software_product_project/allure/)
 
